@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2237B20A1F4FBEC40092F4F0 /* Comic Eyes animation test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2237B2091F4FBEC40092F4F0 /* Comic Eyes animation test.mp4 */; };
+		2237B2111F4FBED70092F4F0 /* iPad Landscape Copy 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2237B20B1F4FBED70092F4F0 /* iPad Landscape Copy 4.png */; };
+		2237B2121F4FBED70092F4F0 /* iPad Landscape Copy 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2237B20C1F4FBED70092F4F0 /* iPad Landscape Copy 5.png */; };
+		2237B2131F4FBED70092F4F0 /* iPad Landscape Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2237B20D1F4FBED70092F4F0 /* iPad Landscape Copy.png */; };
+		2237B2141F4FBED70092F4F0 /* robotEyes.html in Resources */ = {isa = PBXBuildFile; fileRef = 2237B20E1F4FBED70092F4F0 /* robotEyes.html */; };
+		2237B2151F4FBED70092F4F0 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2237B20F1F4FBED70092F4F0 /* style.css */; };
+		2237B2161F4FBED70092F4F0 /* mapWaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2237B2101F4FBED70092F4F0 /* mapWaitViewController.swift */; };
+		2237B21A1F4FD08F0092F4F0 /* Jong-Sung Hwang.png in Resources */ = {isa = PBXBuildFile; fileRef = 2237B2191F4FD08F0092F4F0 /* Jong-Sung Hwang.png */; };
+		2237B21C1F4FD71E0092F4F0 /* Arial Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2237B21B1F4FD71E0092F4F0 /* Arial Black.ttf */; };
+		2237B21F1F4FD7280092F4F0 /* Avenir Next.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 2237B21D1F4FD7280092F4F0 /* Avenir Next.ttc */; };
+		2237B2201F4FD7280092F4F0 /* Avenir.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 2237B21E1F4FD7280092F4F0 /* Avenir.ttc */; };
+		2237B2221F4FE5DD0092F4F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2237B2211F4FE5DD0092F4F0 /* GoogleService-Info.plist */; };
+		2237B2241F4FEB140092F4F0 /* speakerWaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2237B2231F4FEB140092F4F0 /* speakerWaitViewController.swift */; };
+		2237B2261F5014560092F4F0 /* One page rundown-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2237B2251F5014560092F4F0 /* One page rundown-01.png */; };
+		2237B2281F501F130092F4F0 /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2237B2271F501F130092F4F0 /* AgendaViewController.swift */; };
+		223B14DD1F556D8A00A0BA0F /* HKSTP_Dinning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 223B14DC1F556D8A00A0BA0F /* HKSTP_Dinning.jpg */; };
+		223B14DF1F556DDB00A0BA0F /* whereToEatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223B14DE1F556DDB00A0BA0F /* whereToEatViewController.swift */; };
+		22C7182B1F468E37005AB696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7182A1F468E37005AB696 /* AppDelegate.swift */; };
+		22C7182D1F468E37005AB696 /* RobotEyesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7182C1F468E37005AB696 /* RobotEyesViewController.swift */; };
+		22C718301F468E37005AB696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C7182E1F468E37005AB696 /* Main.storyboard */; };
+		22C718321F468E37005AB696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C718311F468E37005AB696 /* Assets.xcassets */; };
+		22C718351F468E37005AB696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C718331F468E37005AB696 /* LaunchScreen.storyboard */; };
+		22C718401F468E38005AB696 /* smartCityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7183F1F468E37005AB696 /* smartCityTests.swift */; };
+		22C7184B1F468E38005AB696 /* smartCityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7184A1F468E38005AB696 /* smartCityUITests.swift */; };
+		22C718591F46B54A005AB696 /* displayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C718581F46B54A005AB696 /* displayViewController.swift */; };
+		22C718671F46DD01005AB696 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C718661F46DD01005AB696 /* mapViewController.swift */; };
+		22C718761F46E622005AB696 /* iPad Landscape Copy 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C718741F46E622005AB696 /* iPad Landscape Copy 2-1.png */; };
+		22C718771F46E622005AB696 /* iPad Landscape Copy 3-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C718751F46E622005AB696 /* iPad Landscape Copy 3-1.png */; };
+		71AC522568F773E5A586D739 /* Pods_smartCityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEE218DCCC113D65A5C1AD6 /* Pods_smartCityUITests.framework */; };
+		7F3648DC2DCA8799CE5AE663 /* Pods_smartCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C42AF35F418181950884F4 /* Pods_smartCity.framework */; };
+		CBD801EA6B155F654118F511 /* Pods_smartCityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59168E06DD069CE1430EC207 /* Pods_smartCityTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C7183C1F468E37005AB696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C7181F1F468E36005AB696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C718261F468E37005AB696;
+			remoteInfo = smartCity;
+		};
+		22C718471F468E38005AB696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C7181F1F468E36005AB696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C718261F468E37005AB696;
+			remoteInfo = smartCity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A92C426A8D9DBA136B9FB25 /* Pods-smartCityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartCityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-smartCityUITests/Pods-smartCityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2237B2091F4FBEC40092F4F0 /* Comic Eyes animation test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comic Eyes animation test.mp4"; sourceTree = "<group>"; };
+		2237B20B1F4FBED70092F4F0 /* iPad Landscape Copy 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Landscape Copy 4.png"; sourceTree = "<group>"; };
+		2237B20C1F4FBED70092F4F0 /* iPad Landscape Copy 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Landscape Copy 5.png"; sourceTree = "<group>"; };
+		2237B20D1F4FBED70092F4F0 /* iPad Landscape Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Landscape Copy.png"; sourceTree = "<group>"; };
+		2237B20E1F4FBED70092F4F0 /* robotEyes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = robotEyes.html; sourceTree = "<group>"; };
+		2237B20F1F4FBED70092F4F0 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		2237B2101F4FBED70092F4F0 /* mapWaitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapWaitViewController.swift; sourceTree = "<group>"; };
+		2237B2191F4FD08F0092F4F0 /* Jong-Sung Hwang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jong-Sung Hwang.png"; sourceTree = "<group>"; };
+		2237B21B1F4FD71E0092F4F0 /* Arial Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Black.ttf"; sourceTree = "<group>"; };
+		2237B21D1F4FD7280092F4F0 /* Avenir Next.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Next.ttc"; sourceTree = "<group>"; };
+		2237B21E1F4FD7280092F4F0 /* Avenir.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avenir.ttc; sourceTree = "<group>"; };
+		2237B2211F4FE5DD0092F4F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2237B2231F4FEB140092F4F0 /* speakerWaitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = speakerWaitViewController.swift; sourceTree = "<group>"; };
+		2237B2251F5014560092F4F0 /* One page rundown-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "One page rundown-01.png"; sourceTree = "<group>"; };
+		2237B2271F501F130092F4F0 /* AgendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaViewController.swift; sourceTree = "<group>"; };
+		223B14DC1F556D8A00A0BA0F /* HKSTP_Dinning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HKSTP_Dinning.jpg; sourceTree = "<group>"; };
+		223B14DE1F556DDB00A0BA0F /* whereToEatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = whereToEatViewController.swift; sourceTree = "<group>"; };
+		22C718271F468E37005AB696 /* smartCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C7182A1F468E37005AB696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22C7182C1F468E37005AB696 /* RobotEyesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotEyesViewController.swift; sourceTree = "<group>"; };
+		22C7182F1F468E37005AB696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22C718311F468E37005AB696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C718341F468E37005AB696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22C718361F468E37005AB696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C7183B1F468E37005AB696 /* smartCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C7183F1F468E37005AB696 /* smartCityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartCityTests.swift; sourceTree = "<group>"; };
+		22C718411F468E38005AB696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C718461F468E38005AB696 /* smartCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C7184A1F468E38005AB696 /* smartCityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartCityUITests.swift; sourceTree = "<group>"; };
+		22C7184C1F468E38005AB696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C718581F46B54A005AB696 /* displayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayViewController.swift; sourceTree = "<group>"; };
+		22C718661F46DD01005AB696 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		22C718741F46E622005AB696 /* iPad Landscape Copy 2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad Landscape Copy 2-1.png"; path = "../../../Downloads/iPad Landscape Copy 2-1.png"; sourceTree = "<group>"; };
+		22C718751F46E622005AB696 /* iPad Landscape Copy 3-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad Landscape Copy 3-1.png"; path = "../../../Downloads/iPad Landscape Copy 3-1.png"; sourceTree = "<group>"; };
+		53AB54A4BAB24725D3B16080 /* Pods-smartCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smartCity/Pods-smartCity.debug.xcconfig"; sourceTree = "<group>"; };
+		59168E06DD069CE1430EC207 /* Pods_smartCityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartCityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6765360ED7B5882150A0F18F /* Pods-smartCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-smartCity/Pods-smartCity.release.xcconfig"; sourceTree = "<group>"; };
+		6A6FAE5D4CD8F831EF1DD449 /* Pods-smartCityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartCityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smartCityTests/Pods-smartCityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D68BAE7A3DCF3C70BF78BBF /* Pods-smartCityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartCityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-smartCityTests/Pods-smartCityTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CEE218DCCC113D65A5C1AD6 /* Pods_smartCityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartCityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB42B0E6313A839157D44467 /* Pods-smartCityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartCityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smartCityUITests/Pods-smartCityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C42AF35F418181950884F4 /* Pods_smartCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C718241F468E37005AB696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3648DC2DCA8799CE5AE663 /* Pods_smartCity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C718381F468E37005AB696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD801EA6B155F654118F511 /* Pods_smartCityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C718431F468E38005AB696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AC522568F773E5A586D739 /* Pods_smartCityUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C7181E1F468E36005AB696 = {
+			isa = PBXGroup;
+			children = (
+				22C718291F468E37005AB696 /* smartCity */,
+				22C7183E1F468E37005AB696 /* smartCityTests */,
+				22C718491F468E38005AB696 /* smartCityUITests */,
+				22C718281F468E37005AB696 /* Products */,
+				A50E0C0161148307BEDC77BD /* Pods */,
+				F4EF3922D97D16DDB6637E3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22C718281F468E37005AB696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C718271F468E37005AB696 /* smartCity.app */,
+				22C7183B1F468E37005AB696 /* smartCityTests.xctest */,
+				22C718461F468E38005AB696 /* smartCityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C718291F468E37005AB696 /* smartCity */ = {
+			isa = PBXGroup;
+			children = (
+				22C7182A1F468E37005AB696 /* AppDelegate.swift */,
+				22C7182C1F468E37005AB696 /* RobotEyesViewController.swift */,
+				2237B2101F4FBED70092F4F0 /* mapWaitViewController.swift */,
+				2237B2231F4FEB140092F4F0 /* speakerWaitViewController.swift */,
+				22C718581F46B54A005AB696 /* displayViewController.swift */,
+				2237B2271F501F130092F4F0 /* AgendaViewController.swift */,
+				22C718661F46DD01005AB696 /* mapViewController.swift */,
+				223B14DE1F556DDB00A0BA0F /* whereToEatViewController.swift */,
+				22C7182E1F468E37005AB696 /* Main.storyboard */,
+				223B14DC1F556D8A00A0BA0F /* HKSTP_Dinning.jpg */,
+				2237B2251F5014560092F4F0 /* One page rundown-01.png */,
+				2237B20E1F4FBED70092F4F0 /* robotEyes.html */,
+				2237B20F1F4FBED70092F4F0 /* style.css */,
+				2237B2091F4FBEC40092F4F0 /* Comic Eyes animation test.mp4 */,
+				2237B2191F4FD08F0092F4F0 /* Jong-Sung Hwang.png */,
+				2237B21D1F4FD7280092F4F0 /* Avenir Next.ttc */,
+				2237B21E1F4FD7280092F4F0 /* Avenir.ttc */,
+				2237B21B1F4FD71E0092F4F0 /* Arial Black.ttf */,
+				2237B20D1F4FBED70092F4F0 /* iPad Landscape Copy.png */,
+				22C718741F46E622005AB696 /* iPad Landscape Copy 2-1.png */,
+				22C718751F46E622005AB696 /* iPad Landscape Copy 3-1.png */,
+				2237B20B1F4FBED70092F4F0 /* iPad Landscape Copy 4.png */,
+				2237B20C1F4FBED70092F4F0 /* iPad Landscape Copy 5.png */,
+				22C718311F468E37005AB696 /* Assets.xcassets */,
+				22C718331F468E37005AB696 /* LaunchScreen.storyboard */,
+				2237B2211F4FE5DD0092F4F0 /* GoogleService-Info.plist */,
+				22C718361F468E37005AB696 /* Info.plist */,
+			);
+			path = smartCity;
+			sourceTree = "<group>";
+		};
+		22C7183E1F468E37005AB696 /* smartCityTests */ = {
+			isa = PBXGroup;
+			children = (
+				22C7183F1F468E37005AB696 /* smartCityTests.swift */,
+				22C718411F468E38005AB696 /* Info.plist */,
+			);
+			path = smartCityTests;
+			sourceTree = "<group>";
+		};
+		22C718491F468E38005AB696 /* smartCityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22C7184A1F468E38005AB696 /* smartCityUITests.swift */,
+				22C7184C1F468E38005AB696 /* Info.plist */,
+			);
+			path = smartCityUITests;
+			sourceTree = "<group>";
+		};
+		A50E0C0161148307BEDC77BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53AB54A4BAB24725D3B16080 /* Pods-smartCity.debug.xcconfig */,
+				6765360ED7B5882150A0F18F /* Pods-smartCity.release.xcconfig */,
+				6A6FAE5D4CD8F831EF1DD449 /* Pods-smartCityTests.debug.xcconfig */,
+				6D68BAE7A3DCF3C70BF78BBF /* Pods-smartCityTests.release.xcconfig */,
+				AB42B0E6313A839157D44467 /* Pods-smartCityUITests.debug.xcconfig */,
+				1A92C426A8D9DBA136B9FB25 /* Pods-smartCityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4EF3922D97D16DDB6637E3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1C42AF35F418181950884F4 /* Pods_smartCity.framework */,
+				59168E06DD069CE1430EC207 /* Pods_smartCityTests.framework */,
+				9CEE218DCCC113D65A5C1AD6 /* Pods_smartCityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C718261F468E37005AB696 /* smartCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C7184F1F468E38005AB696 /* Build configuration list for PBXNativeTarget "smartCity" */;
+			buildPhases = (
+				F41FCF08C86E743131BA46D5 /* [CP] Check Pods Manifest.lock */,
+				22C718231F468E37005AB696 /* Sources */,
+				22C718241F468E37005AB696 /* Frameworks */,
+				22C718251F468E37005AB696 /* Resources */,
+				AE9A3ECDEBD06639CC7DA65C /* [CP] Embed Pods Frameworks */,
+				38217EE164AE99691566A768 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartCity;
+			productName = smartCity;
+			productReference = 22C718271F468E37005AB696 /* smartCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22C7183A1F468E37005AB696 /* smartCityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C718521F468E38005AB696 /* Build configuration list for PBXNativeTarget "smartCityTests" */;
+			buildPhases = (
+				D20A000104C35FF29901B9E4 /* [CP] Check Pods Manifest.lock */,
+				22C718371F468E37005AB696 /* Sources */,
+				22C718381F468E37005AB696 /* Frameworks */,
+				22C718391F468E37005AB696 /* Resources */,
+				5646A569CADE0B852948F8C5 /* [CP] Embed Pods Frameworks */,
+				230C731907022CA473D62C6A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C7183D1F468E37005AB696 /* PBXTargetDependency */,
+			);
+			name = smartCityTests;
+			productName = smartCityTests;
+			productReference = 22C7183B1F468E37005AB696 /* smartCityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22C718451F468E38005AB696 /* smartCityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C718551F468E38005AB696 /* Build configuration list for PBXNativeTarget "smartCityUITests" */;
+			buildPhases = (
+				5D17C724DFC924E3F9B8F6B4 /* [CP] Check Pods Manifest.lock */,
+				22C718421F468E38005AB696 /* Sources */,
+				22C718431F468E38005AB696 /* Frameworks */,
+				22C718441F468E38005AB696 /* Resources */,
+				0B323DF3FD1ECFF24FA69C30 /* [CP] Embed Pods Frameworks */,
+				775985D85BEA9DE7F8B8D7E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C718481F468E38005AB696 /* PBXTargetDependency */,
+			);
+			name = smartCityUITests;
+			productName = smartCityUITests;
+			productReference = 22C718461F468E38005AB696 /* smartCityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C7181F1F468E36005AB696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AsiaMac;
+				TargetAttributes = {
+					22C718261F468E37005AB696 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JWUUZ85PJE;
+						ProvisioningStyle = Automatic;
+					};
+					22C7183A1F468E37005AB696 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22C718261F468E37005AB696;
+					};
+					22C718451F468E38005AB696 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22C718261F468E37005AB696;
+					};
+				};
+			};
+			buildConfigurationList = 22C718221F468E37005AB696 /* Build configuration list for PBXProject "smartCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22C7181E1F468E36005AB696;
+			productRefGroup = 22C718281F468E37005AB696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C718261F468E37005AB696 /* smartCity */,
+				22C7183A1F468E37005AB696 /* smartCityTests */,
+				22C718451F468E38005AB696 /* smartCityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C718251F468E37005AB696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2237B2121F4FBED70092F4F0 /* iPad Landscape Copy 5.png in Resources */,
+				2237B21A1F4FD08F0092F4F0 /* Jong-Sung Hwang.png in Resources */,
+				2237B2261F5014560092F4F0 /* One page rundown-01.png in Resources */,
+				22C718351F468E37005AB696 /* LaunchScreen.storyboard in Resources */,
+				22C718321F468E37005AB696 /* Assets.xcassets in Resources */,
+				2237B21C1F4FD71E0092F4F0 /* Arial Black.ttf in Resources */,
+				2237B2141F4FBED70092F4F0 /* robotEyes.html in Resources */,
+				2237B20A1F4FBEC40092F4F0 /* Comic Eyes animation test.mp4 in Resources */,
+				2237B2111F4FBED70092F4F0 /* iPad Landscape Copy 4.png in Resources */,
+				2237B2221F4FE5DD0092F4F0 /* GoogleService-Info.plist in Resources */,
+				2237B21F1F4FD7280092F4F0 /* Avenir Next.ttc in Resources */,
+				2237B2201F4FD7280092F4F0 /* Avenir.ttc in Resources */,
+				223B14DD1F556D8A00A0BA0F /* HKSTP_Dinning.jpg in Resources */,
+				2237B2151F4FBED70092F4F0 /* style.css in Resources */,
+				22C718771F46E622005AB696 /* iPad Landscape Copy 3-1.png in Resources */,
+				22C718761F46E622005AB696 /* iPad Landscape Copy 2-1.png in Resources */,
+				2237B2131F4FBED70092F4F0 /* iPad Landscape Copy.png in Resources */,
+				22C718301F468E37005AB696 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C718391F468E37005AB696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C718441F468E38005AB696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B323DF3FD1ECFF24FA69C30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smartCityUITests/Pods-smartCityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		230C731907022CA473D62C6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smartCityTests/Pods-smartCityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38217EE164AE99691566A768 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smartCity/Pods-smartCity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5646A569CADE0B852948F8C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smartCityTests/Pods-smartCityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D17C724DFC924E3F9B8F6B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartCityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		775985D85BEA9DE7F8B8D7E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smartCityUITests/Pods-smartCityUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE9A3ECDEBD06639CC7DA65C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-smartCity/Pods-smartCity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smartCity/Pods-smartCity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20A000104C35FF29901B9E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartCityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F41FCF08C86E743131BA46D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartCity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C718231F468E37005AB696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223B14DF1F556DDB00A0BA0F /* whereToEatViewController.swift in Sources */,
+				22C718591F46B54A005AB696 /* displayViewController.swift in Sources */,
+				2237B2161F4FBED70092F4F0 /* mapWaitViewController.swift in Sources */,
+				22C7182D1F468E37005AB696 /* RobotEyesViewController.swift in Sources */,
+				22C7182B1F468E37005AB696 /* AppDelegate.swift in Sources */,
+				22C718671F46DD01005AB696 /* mapViewController.swift in Sources */,
+				2237B2281F501F130092F4F0 /* AgendaViewController.swift in Sources */,
+				2237B2241F4FEB140092F4F0 /* speakerWaitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C718371F468E37005AB696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C718401F468E38005AB696 /* smartCityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C718421F468E38005AB696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C7184B1F468E38005AB696 /* smartCityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22C7183D1F468E37005AB696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C718261F468E37005AB696 /* smartCity */;
+			targetProxy = 22C7183C1F468E37005AB696 /* PBXContainerItemProxy */;
+		};
+		22C718481F468E38005AB696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C718261F468E37005AB696 /* smartCity */;
+			targetProxy = 22C718471F468E38005AB696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22C7182E1F468E37005AB696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C7182F1F468E37005AB696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22C718331F468E37005AB696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C718341F468E37005AB696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C7184D1F468E38005AB696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22C7184E1F468E38005AB696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22C718501F468E38005AB696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53AB54A4BAB24725D3B16080 /* Pods-smartCity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JWUUZ85PJE;
+				INFOPLIST_FILE = smartCity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asiabot.smartCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		22C718511F468E38005AB696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6765360ED7B5882150A0F18F /* Pods-smartCity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JWUUZ85PJE;
+				INFOPLIST_FILE = smartCity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asiabot.smartCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		22C718531F468E38005AB696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6FAE5D4CD8F831EF1DD449 /* Pods-smartCityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = smartCityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asiabot.smartCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartCity.app/smartCity";
+			};
+			name = Debug;
+		};
+		22C718541F468E38005AB696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D68BAE7A3DCF3C70BF78BBF /* Pods-smartCityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = smartCityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asiabot.smartCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartCity.app/smartCity";
+			};
+			name = Release;
+		};
+		22C718561F468E38005AB696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB42B0E6313A839157D44467 /* Pods-smartCityUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = smartCityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asiabot.smartCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = smartCity;
+			};
+			name = Debug;
+		};
+		22C718571F468E38005AB696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A92C426A8D9DBA136B9FB25 /* Pods-smartCityUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = smartCityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asiabot.smartCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = smartCity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C718221F468E37005AB696 /* Build configuration list for PBXProject "smartCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C7184D1F468E38005AB696 /* Debug */,
+				22C7184E1F468E38005AB696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C7184F1F468E38005AB696 /* Build configuration list for PBXNativeTarget "smartCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C718501F468E38005AB696 /* Debug */,
+				22C718511F468E38005AB696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C718521F468E38005AB696 /* Build configuration list for PBXNativeTarget "smartCityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C718531F468E38005AB696 /* Debug */,
+				22C718541F468E38005AB696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C718551F468E38005AB696 /* Build configuration list for PBXNativeTarget "smartCityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C718561F468E38005AB696 /* Debug */,
+				22C718571F468E38005AB696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C7181F1F468E36005AB696 /* Project object */;
+}
